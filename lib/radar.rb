@@ -10,7 +10,7 @@ class Radar
   def self.status_for(airport)
     uri = URI.parse("http://services.faa.gov/airport/status/#{airport}")
     req = Net::HTTP::Get.new(uri)
-    req["Accept"] = "application/json"
+    req["Accept"] = ""
     res = Net::HTTP.start(uri.hostname, uri.port) do |http|
       http.request(req)
     end
