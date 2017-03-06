@@ -11,7 +11,7 @@ resources:
     username: PJHaga-ISC@nl.ibm.com
     password: moetende22
     organization: PJHaga-ISC@nl.ibm.com
-    space: pjSpace
+    space: test
 
 jobs:
 - name: test-app
