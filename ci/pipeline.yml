@@ -7,7 +7,7 @@ resources:
 - name: staging-app
   type: cf
   source:
-    api: https://api.ng.bluemix.net
+    api: https://api.eu-gb.bluemix.net
     username: PJHaga-ISC@nl.ibm.com
     password: moetende22
     organization: PJHaga-ISC@nl.ibm.com
